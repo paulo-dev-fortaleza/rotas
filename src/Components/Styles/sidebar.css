@@ -1,0 +1,13 @@
+aside {
+  position: fixed;
+  top: 60px; /* altura do header */
+  left: 0;
+  height: calc(100vh - 100px); /* header + footer */
+  width: 220px;
+  background: #222;
+  color: #fff;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  z-index: 150;
+}

@@ -1,0 +1,23 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout {
+  display: flex;
+  height: calc(100vh - 100px); /* 60px do header + 40px do footer */
+  margin-top: 60px; /* altura do header */
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  min-height: 0;
+  margin-left: 220px; /* largura do sidebar, se for fixo */
+}
